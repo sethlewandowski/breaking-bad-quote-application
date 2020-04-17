@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  background: url('./images/background.jpg');
+  background-size: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.card{
+  width:500px;
+  padding:40px 50px;
+  max-width: 80%;
+  max-height: 80%;
+  display: flex;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.button{
+  margin: 20px;
+}
+
+.quote-box{
+  background-color: blue;
+}
+
+#tweet-quote img{
+  width: 30px;
+}
