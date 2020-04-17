@@ -67,7 +67,6 @@ class App extends Component {
             <div className="tweet-button">
               <a 
                 id="tweet-quote" 
-                target="_blank" 
                 href={URI} 
                 >
                 <img className="twitter-button" src={twitter} />
