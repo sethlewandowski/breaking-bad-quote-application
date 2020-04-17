@@ -30,9 +30,14 @@
   background-color: blue;
 }
 
-#tweet-quote img{
-  width: 30px;
+.twitter-button{
+  width: 20px;
+  align-self: right;
+}  
+
+.tweet-button{
 }
+
 
 .text-muted a{
   color: white;

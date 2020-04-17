@@ -61,12 +61,16 @@ class App extends Component {
                 value="New Quote" 
                 onClick={this.getRandomNum}
                 >
-                "Tread Lightly"
+                Get New Quote
               </button>
             </div>
-            <div>
-              <a id="tweet-quote" target="_blank" href={URI}>
-                <img src={twitter} />
+            <div className="tweet-button">
+              <a 
+                id="tweet-quote" 
+                target="_blank" 
+                href={URI} 
+                >
+                <img className="twitter-button" src={twitter} />
               </a>
             </div>
           </div>
