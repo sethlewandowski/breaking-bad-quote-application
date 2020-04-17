@@ -61,7 +61,7 @@ class App extends Component {
                 value="New Quote" 
                 onClick={this.getRandomNum}
                 >
-                New Quote
+                "Tread Lightly"
               </button>
             </div>
             <div>
@@ -72,7 +72,7 @@ class App extends Component {
           </div>
         </div>
         <div className="text-muted">
-          by <a href="https://www.sethlewandowski.com">Seth L.</a>
+          by <a href="https://www.sethlewandowski.com">Seth Lewandowski</a>
         </div>
       </div>
     ); 
